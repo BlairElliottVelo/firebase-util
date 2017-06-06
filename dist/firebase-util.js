@@ -1,9 +1,9 @@
 /*!
  * Firebase-util:  A set of experimental power tools for Firebase.
  *
- * Version: 0.0.0
- * URL: https://github.com/firebase/firebase-util
- * Date: 2016-07-14T07:38:55.312Z
+ * Version: 0.3.2gt
+ * URL: https://github.com/GartorwareCorp/firebase-util
+ * Date: 2017-06-06T13:44:03.156Z
  * License: MIT http://firebase.mit-license.org/
  */
 
