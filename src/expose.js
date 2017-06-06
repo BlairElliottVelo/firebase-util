@@ -5,5 +5,8 @@ var firebaseUtil = require('firebase-util');
 if( global.firebase ) {
   global.firebase.util = firebaseUtil;
 }
+if ( window ) {
+  window.firebaseUtil = firebaseUtil;
+}
 
 module.exports = firebaseUtil;

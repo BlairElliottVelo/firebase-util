@@ -16,6 +16,9 @@ var firebaseUtil = require('firebase-util');
 if( global.firebase ) {
   global.firebase.util = firebaseUtil;
 }
+if ( window ) {
+  window.firebaseUtil = firebaseUtil;
+}
 
 module.exports = firebaseUtil;
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
