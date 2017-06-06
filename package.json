@@ -30,7 +30,7 @@
     "package.json"
   ],
   "dependencies": {
-    "firebase": "3.0.x"
+    "firebase": "3.x.x"
   },
   "devDependencies": {
     "browserify": "^5.11.2",

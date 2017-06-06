@@ -3,7 +3,7 @@ THIS IS A BETA FEATURE. NOT RECOMMENDED FOR USE IN PRODUCTION.
 
 See [LIVE EXAMPLES](http://firebase.github.io/firebase-util/#/toolbox/Paginate/).
 
-## Updated to Firebase SDK v3.0.x
+## Updated to Firebase SDK v3.x.x
 
 Firebase SDK has been updated to v3.x so several steps need to be taken in order to work with new API.
 Migration guide is avalaible in: https://firebase.google.com/support/guides/firebase-web
@@ -12,7 +12,7 @@ Once the migration steps have been taken, we need to make some changes in our pr
 As surely you have realized, most significant changes are:
  - We no longer instantiate a database references via new Firebase. Instead, we will initialize the SDK via *firebase.initializeApp()* and then we get a database reference with: *firebase.database().ref()* (note the lower case firebase! It's meaningful!)
  - Many no-argument getters have been changed to read-only properties
- 
+
 **So what is different with firebase-util**?
 
 Collaterally, the way we get a firebase reference. The way we get some objects like .key, .parent, .ref, that are now read-only properties instead of functions. And the lower case **firebase** namespace, of course!
