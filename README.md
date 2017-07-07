@@ -6,6 +6,12 @@
 
 This is a collection of power toys (mostly experimental) and utilities for use in Firebase.
 
+## Updated to Firebase SDK v4.x.x
+
+Usage now requires webpack/browserify to use and is no longer attached to the window.firebase object on browsers, add to code using, for example:
+`var firebaseUtil = require('firebase-util')`
+Instead of using `window.firebase.util.Scroll(...)`, for instance, it will now be `firebaseUtil.Scroll(...)`
+
 ## Updated to Firebase SDK v3.0.x
 
 Firebase SDK has been updated to v3.x so several steps need to be taken in order to work with new API.

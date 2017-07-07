@@ -22,15 +22,15 @@
     "realtime",
     "utilities"
   ],
-  "main": "dist/firebase-util.min.js",
+  "main": "src/fbutil.js",
   "files": [
-    "dist/**",
+    "src/**",
     "LICENSE",
     "README.md",
     "package.json"
   ],
   "dependencies": {
-    "firebase": "3.0.x"
+    "firebase": "4.x.x"
   },
   "devDependencies": {
     "browserify": "^5.11.2",

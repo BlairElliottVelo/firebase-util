@@ -8,7 +8,7 @@ var util = exports;
 var READ_EVENTS = ['value', 'child_added', 'child_removed', 'child_updated', 'child_changed'];
 
 util.undef = undef;
-util.firebase = global.firebase || require('firebase');
+util.firebase = global.firebase || require('firebase/app');
 
 util.isDefined = function(v) {
   return v !== undef;
